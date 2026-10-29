@@ -1,0 +1,7 @@
+# Nada daqui vai para o GitHub (o repositório do Pages é público)
+.claude/
+supabase/.temp/
+.env
+.env.*
+*.txt
+node_modules/

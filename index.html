@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; connect-src https://nvdhmoyulmdlyfgxhxsd.supabase.co wss://nvdhmoyulmdlyfgxhxsd.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title>CRM Comercial</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"><p class="carregando">Carregando…</p></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"
+          integrity="sha256-hZaWX+kY5lZgChtWjToWj1wNPSKmAIhrtvRKZVXbAec="
+          crossorigin="anonymous"></script>
+  <script src="config.js"></script>
+  <script src="novidades.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
